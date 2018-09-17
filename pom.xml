@@ -26,6 +26,7 @@
 
         <!-- Test -->
         <assertj.version>2.2.0</assertj.version>
+        <junit.version>4.13-SNAPSHOT</junit.version>
 
         <!-- Dates -->
         <jodatime-hibernate.version>1.4</jodatime-hibernate.version>
@@ -254,6 +255,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
