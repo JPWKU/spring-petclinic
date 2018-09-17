@@ -314,9 +314,9 @@
                   </execution>
                 </executions>
                 <configuration>
-                <serverId>nexus</serverId>
-                <nexusUrl>http://192.168.50.4:8081/nexus/</nexusUrl>
-                <skipStaging>true</skipStaging>
+                  <serverId>nexus</serverId>
+                  <nexusUrl>http://192.168.50.4:8081/nexus/</nexusUrl>
+                  <skipStaging>true</skipStaging>
                 </configuration>
             </plugin>
             <plugin>
